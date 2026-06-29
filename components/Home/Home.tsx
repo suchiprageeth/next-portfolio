@@ -5,6 +5,7 @@ import ResponsiveNav from "./Navbar/ResponsiveNav";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 };
